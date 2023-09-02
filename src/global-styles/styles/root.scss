@@ -1,0 +1,33 @@
+/// Root Styles file
+/// Here we define all the root variables we need for our project.
+/// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  ////// COLORS
+  --color-background: #0c1829;
+  --color-box: #13243c;
+  --color-title: #fff;
+  --color-primary: #04fcfa;
+  //--color-body: #9293b9;
+  --color-stroke: #2b3953;
+  --color-desc: #9293b9;
+
+  ////// FONTS
+  --font-size-24: 2.4rem;
+  --font-size-18: 1.8rem;
+  --font-size-16: 1.6rem;
+  --font-size-14: 1.4rem;
+
+  ////// BORDERS
+  --border-radius-20: 2rem;
+}
